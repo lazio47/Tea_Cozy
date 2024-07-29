@@ -1,0 +1,140 @@
+/* universal selectors */
+
+* {
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+}
+
+body {
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* Header */
+header {
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+nav ul {
+    display: inline-flex;
+}
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: underline;
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+.logo img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+
+
+/* Main */
+
+main {
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Mission */
+
+#mission {
+    background-image: url("../images/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#mission .content {
+    background-color: black;
+}
+
+/* Featured Tea */
+
+#featured-tea {
+    width: 1000px;
+    margin-bottom: 20px;
+}
+
+.product {
+    width: 300px;
+}
+
+.product img {
+    height: 200px;
+}
+
+.products {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Location */
+
+#locations {
+    background-image: url("../images/img-locations-background.jpg");
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+
+}
+
+#locations h2 {
+    margin: 0;
+}
+
+.locations-list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.location {
+    width: 300px;
+    background-color: black;
+}
+
+/* Footer */
+
+#contacts {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer p {
+    text-align: left;
+    margin-left: 20px;
+}
